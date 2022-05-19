@@ -25,7 +25,7 @@ class ApiService extends Base {
             'username'  => config('fancourier.username'),
             'user_pass'  => config('fancourier.password'),
             'client_id' => config('fancourier.client_id'),
-            ];
+        ];
     }
     
     /**

@@ -39,7 +39,6 @@ class GenerateAwb extends Endpoint {
         if (empty($parse)) {
             return $result;
         }
-
         try {
             foreach ($parse as $value) {
                 $result_per_row = explode(',', $value);
